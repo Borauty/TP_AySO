@@ -1,0 +1,141 @@
+ls -l
+cd repogit/
+ls -l
+alias
+alias saludo="echo $(whoami)"
+saludo
+alias saludo="echo hola $(whoami)"
+saludo
+ll
+ls -la ../
+ls -la $HOME
+ls -la /home/vagrant/
+ls -la /home/vagrant/.ssh/
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -la /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub 
+ll
+git clone git@github.com:Borauty/TP_AySO.git
+ll
+cd TP_AySO/
+git statuus
+git status
+touch un_archivo
+ll
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git config --global user.email "lautibordon12@gmail.com"
+git config --global user.name "BordonLauty"
+git commit -m "add: primer commit"
+git status
+git push
+man ssh-keygen
+history
+man man
+ls -la
+cd
+ls -la
+mkdir repogit
+cd repogit/
+ll
+cd TP_AySO/
+ll
+pwd
+ls -l
+cd
+pwd
+sudo app update ; sudo apt install tree
+e
+ll
+cd repogit/
+ll
+cd TP_AySO/
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+[200~git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+ll
+man grep
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail -n1 > datos_usuario.txt
+grep "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | tail -n1 > datos_usuario.txt
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | tail -n1 > datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git status
+> lista_ordenada
+ll
+cat lista_ordenada 
+/etc/passwd
+man grep
+history -a
+wc -l .bash_history 
+cd
+wc -l .bash_history 
+ll
+cd repogit/
+cd TP_AySO/
+man grep
+/etc/passwd
+cat /etc/passwd
+cat /etc/passwd | grep -v "nologin" 
+man head
+man sort
+cat /etc/passwd | grep -v "nologin" | sort -t ":" -k7 
+cat /etc/passwd | grep -v "nologin" | sort -t ":" -k7 |head -n10
+cat /etc/passwd | grep -v "nologin" | sort -t ":" -k7 |head -n10 > lista_ordenada 
+cat lista_ordenada 
+cat un_archivo 
+cat datos_usuario.txt 
+ll
+cat .bash_history 
+ll
+cat .bash_history 
+git status
+cd repogit/
+cd TP_AySO/
+ll
+git status
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+man man
+touch comando_dump_net
+man apropos
+apropos network
+apropos network | grep "tcpdump"
+apropos network | grep "tcpdump" > comando_dump_net 
+ll
+git add .
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red ”
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+ll
+cat << EOF >> README.md
+Alumno: Lautaro Bordon
+Division: 313
+turno: noche
+EOF
+
+git add .
+git commit -m "docs: se agrega informacion del alumno en el archivo README"
+history -a
